@@ -1,0 +1,24 @@
+아래의 문제를 해결하기 위해서 참고할 자료는 WWDC 세션에서만 찾습니다. 
+다른 곳에서 자료를 찾는 것은 반칙입니다. 여러분의 양심에 맡깁니다.
+
+### 참고할 WWDC 세션 힌트
+
+* Debugging Tips and Tricks
+* Debugging with Xcode 9
+* Visual Debugging with Xcode
+* LLDB: Beyond "po"
+
+
+
+### 문제
+
+- ViewController.swift 파일의 23번째 줄에 브레이크 포인트를 설정하려면 입력해야 하는 LLDB 명령어는? 
+- `changeTextColor`라는 심볼에 브레이크 포인트를 설정하기 위해 입력해야 하는 LLDB 명령어는? 
+
+- Debug Navigator를 통해 `titleLabel`의 `text`가 `"두 번째 뷰 컨트롤러!"`인 경우에만 작동을 일시정지하고 `titleLabel`의 `text`를 출력하는 액션을 실행하도록 설정해보세요
+- 오류(Error) 혹은 익셉션(Exception)이 발생한 경우 프로세스의 동작을 멈추도록 하는 방법에 대해 알아봅시다
+- View Controller의 뷰 위에는 사용자 눈에 보이지 않는 뷰가 있습니다. 이 뷰의 오토레이아웃 제약을 확인해서 알려주세요
+- 디버그 모드로 실행중인 상태에서 사용자 눈에 보이지 않는 뷰의 색상을 분홍색으로 변겅해보세요
+- 두 번째 뷰 컨트롤러의 뷰가 화면에 표시된 상태에서, 두 번째 뷰 컨트롤러 까지의 메모리 그래프를 캡쳐해보세요
+- LLDB의 `break` 명령어의 별칭인 `b` 명령어를 만들어보세요
+- LLDB의 `v`, `po`, `p` 명령어의 차이에 대해 알아봅시다
